@@ -1,0 +1,15 @@
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\bin\Debug\net6.0\Atvvd5.exe
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\bin\Debug\net6.0\Atvvd5.deps.json
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\bin\Debug\net6.0\Atvvd5.runtimeconfig.json
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\bin\Debug\net6.0\Atvvd5.dll
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\bin\Debug\net6.0\Atvvd5.pdb
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.dll
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\refint\Atvvd5.dll
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.pdb
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\Atvvd5.genruntimeconfig.cache
+C:\Users\Luis Pereira\Documents\PUC-1\aed\exercicios\Atvvd5\obj\Debug\net6.0\ref\Atvvd5.dll
