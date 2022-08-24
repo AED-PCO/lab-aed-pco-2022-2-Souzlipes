@@ -56,8 +56,8 @@ namespace exercicio1{
 
             for (int i = 0;i <5; i++)
             {
-                Console.WriteLine("Valores comuns: " +C[i]);
-                Console.WriteLine("Valores diferentes: " +D[i]);
+                Console.Write("Valores comuns: " +C[i]+" ");
+                Console.Write("Valores diferentes: " +D[i]+" ");
                 
             }
         }
