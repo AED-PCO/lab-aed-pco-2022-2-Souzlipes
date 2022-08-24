@@ -9,7 +9,7 @@ Separando o número em dois grupos de dois algarismos temos o 30 e o 25
 A soma de 30 com 25 é igual a 55 o O Quadrado de 55 é igual a 3025. 
 Faça um programa que mostre os números de 1000 a 9999 que possuem essa característica. 
 Resultado:
-   (img/atvdd1.jpg)
+   image.png
 Atividade II 
 Um Número é dito primo se possui como divisores o número 1 e ele mesmo. Em outras palavras, um Número Primo possui dois divisores de 1 até ele. 
 Faça um programa que mostre se um determinado número inteiro, lido pelo teclado, é Um Número é dito perfeita se a soma de seus divisores menores que ele é igual a ele.  
