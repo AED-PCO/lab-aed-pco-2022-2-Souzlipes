@@ -15,12 +15,19 @@ namespace exercicio2{
     class multiplica{
 
         static int Multiplica(int A, int B){
-            int aux = 0;
+            int aux;
             if(B == 0)
                 return(0);
-
-            aux = A + Multiplica(A, B-1);
+             
+            if (B < 0){
+                aux = A*-1 + Multiplica(A, B+1);
+            } 
+            else 
+                aux = A + Multiplica(A, B-1);
+            
             return(aux);
+            
+
         }
         static void Main(string[] args){
             int A, B;
