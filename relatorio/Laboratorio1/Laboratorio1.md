@@ -29,7 +29,8 @@ Descrição:
 O codigo a qual realizei o usuário ira inserir um numero e fara o teste na função "primo" se o nº é primo ou não, sendo assim em seguida ele mostrar os numeros perfeitos
 de 1 a 1000 como solicitado no enunciado.
 
-Resultado: 
+Resultado:
+
 ![Resultado:](img/atvdd2.png)
 
 
@@ -60,13 +61,15 @@ Resultado:
 ![Resultado:](img/atvdd4.jpg)
 
 
-Atividade V 
+Atividade V
+
 Faça um programa que chame uma função capaz de calcular o Fatorial de um número inteiro
 
 Descrição:
 O codigo a qual realizei pede para o usuário inserir o nº qual o mesmo deseje a fatorial daquele nº e realiza o calculo chamando uma função para calcular.
 
-Resultado: 
+Resultado:
+
 ![Resultado:](img/atvdd5.jpg)
   
 
