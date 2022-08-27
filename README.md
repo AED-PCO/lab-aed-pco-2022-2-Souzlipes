@@ -4,8 +4,15 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno
+* Luis Felipe de souza pereira
 
 ## Professor responsável
 
-* Nome completo do professor
+* Leonardo Vilela Cardoso
+
+<hr>
+<h3>Acesso aos codigos</h3>
+<a href="codigo/README.md">Clique aqui</a>
+
+<h3>Acesso aos relatorio</h3>
+<a href="relatorio/README.md">Clique aqui</a>
