@@ -18,7 +18,7 @@ namespace exercicio2{
                 return (""); 
         
             if(pos < caractere.Length){
-                for (int i = 0; i < 5; i++){
+                for (int i = 0; i < vogal.Length; i++){
                     if (caractere[pos] == vogal[i]){
                         aux = caractere[pos].ToString();
                         aux = "";
@@ -34,7 +34,7 @@ namespace exercicio2{
 
         static void Main(string[] args){
             string palavra;
-            char [] vogal =new char[] {'a','e','i','o','u'};
+            char [] vogal =new char[] {'a','e','i','o','u','A','E','I','O','U'};
             Console.Write("Insira uma palavra: ");
             palavra = Console.ReadLine();
             char[] caractere = palavra.ToCharArray();
