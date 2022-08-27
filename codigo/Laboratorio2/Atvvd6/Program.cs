@@ -12,26 +12,35 @@ using System;
 namespace exercicio2{
     class pow{
 
-        static string retiraVogal(string palavra, char []vogal){
-            if (palavra == "") 
+        static string retiraVogal(char []caractere, char []vogal, int pos){
+            string aux = "";
+            if (pos == caractere.Length) 
                 return (""); 
-            for(int i=0; i<vogal.Length; i++){
-                if(palavra[0] == vogal[i]) 
-                    palavra = "";
-                    return retiraVogal(palavra, vogal); 
+        
+            if(pos < caractere.Length){
+                for (int i = 0; i < 5; i++){
+                    if (caractere[pos] == vogal[i]){
+                        aux = caractere[pos].ToString();
+                        aux = "";
+                        return retiraVogal(caractere, vogal,pos+1);
+                    }else{
+                    aux = caractere[pos].ToString();    
+                    }
+                }
             }
 
-            return retiraVogal(palavra, vogal);
+            return aux = aux + retiraVogal(caractere, vogal,pos+1);
         }
 
         static void Main(string[] args){
             string palavra;
-            char [] vogal =new char[] {'a','e','i','o', 'u'};
+            char [] vogal =new char[] {'a','e','i','o','u'};
             Console.Write("Insira uma palavra: ");
             palavra = Console.ReadLine();
+            char[] caractere = palavra.ToCharArray();
 
-            retiraVogal(palavra, vogal);
-            Console.WriteLine(retiraVogal(palavra, vogal));
+            retiraVogal(caractere, vogal,0);
+            Console.WriteLine(retiraVogal(caractere, vogal,0));
         }
     }
 }
