@@ -1,5 +1,13 @@
 # Código da Prática 
 
-Mantenha neste diretório todo o código fonte do projeto. 
+<h3>Olá, bem-vindo ao meus códigos</h3>
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+<p>Todos os codiogos foram desenvovildos de acordo com o aprendizado em classe.</p>
+
+<hr>
+
+<h4>Labroatório 1<h4>
+  <a href="Laboratorio1/">Acesse codigo aqui</a>
+ 
+ <h4>Labroatório 2<h4>
+  <a href="Laboratorio2/">Acesse codigo aqui</a>
