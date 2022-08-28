@@ -13,7 +13,8 @@ sendo assim aplicando o meotódo recursivo. A melhor opção foi o nº 2 devido 
 o valor somado.
 
 Resultado:
-   ![Resultado:](img/atvdd1.png)
+
+![Resultado:](img/atvdd1.png)
 
 
 Atividade II 
@@ -30,6 +31,7 @@ todo o processo e somando todo resultado gerado a cada recursivdade somando assi
 Caso o 2º parâmetro menor que 0  a função entra em recursiviadade e irá apenas somar esse 2º parâmetro até chegar em 0.
 
 Resultado: 
+
 ![Resultado:](img/atvdd2.png)
 
 
@@ -42,7 +44,8 @@ Descrição:
 O codigo a qual realizei segue a mesma logica que o anterior, porem ao em vez de somar eu apenas multiplico.
 Para caso de potencia negativa a regra de parada será -1 e retornara o 1º paramentro como negativo para potencias impares negativas, como vemos a seguir.
 
-Resultado: 
+Resultado:
+
 ![Resultado:](img/atvdd3.png)
 
 
@@ -52,9 +55,11 @@ Escreva um método recursivo que receba uma frase e uma letra como parâmetros.
 Este método deve retornar a quantidade de ocorrências desta letra nesta frase.
 
 Descrição:
+Ao receber a palavra chama a função a qual irar compara cada caraceter igual solicitado pelo usuario assim o mesmo ira busca aquele caracter na palavra e apresentar quantas vezes foi repetida.
 
 
-Resultado: 
+Resultado:
+
 ![Resultado:](img/atvdd4.png)
 
 
@@ -68,7 +73,8 @@ O codogio a qual realizei irá transformar todos o numeros impares em 0, em segu
 passando cada vetor por um metodo recursivo, chegadando na ultima posição do vetor o mesmo irá resolver a função e somar todos os valores gerados por 
 cada vez que realizou a recursiviadade.
 
-Resultado: 
+Resultado:
+
 ![Resultado:](img/atvdd5.png)
   
 
@@ -76,7 +82,8 @@ Atividade VI
 Faça um programa que chame uma função capaz de calcular.x7, sendo e y inteiros:
 Utilize passagem de parâmetros por referência.
 
-Resultado: 
+Resultado:
+ 
 ![Resultado:](img/atvdd6.png)
  
  
