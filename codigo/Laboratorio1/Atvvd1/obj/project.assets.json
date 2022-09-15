@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd1\\4num.csproj",
+      "projectUniqueName": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd1\\4num.csproj",
       "projectName": "4num",
-      "projectPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd1\\4num.csproj",
+      "projectPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd1\\4num.csproj",
       "packagesPath": "C:\\Users\\Luis Pereira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd1\\obj\\",
+      "outputPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luis Pereira\\AppData\\Roaming\\NuGet\\NuGet.Config"

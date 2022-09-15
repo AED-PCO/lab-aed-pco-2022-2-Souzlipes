@@ -1,0 +1,15 @@
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\bin\Debug\net6.0\Atvvd4.exe
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\bin\Debug\net6.0\Atvvd4.deps.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\bin\Debug\net6.0\Atvvd4.runtimeconfig.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\bin\Debug\net6.0\Atvvd4.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\bin\Debug\net6.0\Atvvd4.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\refint\Atvvd4.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\Atvvd4.genruntimeconfig.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio3\Atvvd4\obj\Debug\net6.0\ref\Atvvd4.dll
