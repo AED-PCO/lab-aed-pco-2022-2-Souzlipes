@@ -14,21 +14,33 @@ namespace exercicio2{
 
         static string retiraVogal(char []caractere, char []vogal, int pos){
             string aux = "";
+            int comp = 0;
+            int atribuicao = 0;
+            int somatorio = 0;
+            comp ++;
             if (pos == caractere.Length) 
                 return (""); 
-        
+
+            comp++;
             if(pos < caractere.Length){
                 for (int i = 0; i < vogal.Length; i++){
+                    comp++;
                     if (caractere[pos] == vogal[i]){
                         aux = caractere[pos].ToString();
                         aux = "";
+                        atribuicao++;
                         return retiraVogal(caractere, vogal,pos+1);
                     }else{
-                    aux = caractere[pos].ToString();    
+                        atribuicao++;
+                        aux = caractere[pos].ToString();    
                     }
                 }
             }
+            Console.Write("Comparacao: "+atribuicao+" ");
+            Console.Write("Comparacao: "+comp+" ");
 
+            somatorio++;
+            Console.WriteLine("Somatorio: "+somatorio);
             return aux = aux + retiraVogal(caractere, vogal,pos+1);
         }
 

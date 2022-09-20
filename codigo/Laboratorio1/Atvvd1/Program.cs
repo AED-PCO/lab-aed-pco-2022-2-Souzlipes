@@ -20,8 +20,8 @@ using System;
 namespace exercicio1{
     class Num{
         static void Main(string[] args){
-            int instrucao = 0;
-                int comp = 0;
+            int atribuicao = 0;
+            int comp = 0;
                 
             for(int i=0; i<9999; i++){
 
@@ -30,11 +30,11 @@ namespace exercicio1{
                 int soma = numero1 + numero2;
                 if(Math.Pow(soma,2) == i){
                     Console.WriteLine(i);
-                    comp++;
+
                 }    
-                instrucao ++;
+                atribuicao++;
                 }
-                 Console.WriteLine("Instrucao é {0}",instrucao);
+                 Console.WriteLine("atribuicao é {0}",atribuicao);
                  Console.WriteLine("Comparacao é {0}",comp);
             }
            

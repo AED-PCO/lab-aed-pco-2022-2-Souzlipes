@@ -21,25 +21,36 @@ namespace exercicio1{
         }
 
         static void comparaVetor(int []A,int []B, int[]C, int[]D){
+
+
                 int i;
                 int valorC = 0, valorD = 0, dif=0;
 
+                int atribuicao = 3;
+                int comp = 0;
                 
                 for (i = 0; i < 5; i++){
                     for (int j = 0; j < 5; j++){
                         if (A[j] == B[i]){
                             C[valorC] = A[j];
+                            atribuicao++;
                             valorC++;
                         }
                         if (A[i] == B[j]) dif++;
+                        comp+=2;
                     }
-
+                    comp++;
                     if (dif == 0){
                         D[valorD] = A[i];
+                        atribuicao++;
                         valorD++;
                     }
                     dif = 0;
+                    atribuicao++;
                 }
+                Console.WriteLine("Comp "+comp);
+                Console.WriteLine("Atribuicao "+atribuicao);
+                
             
         }
         static void Main(string[] args){
@@ -47,6 +58,9 @@ namespace exercicio1{
             int []B = new int[5];
             int []C = new int[5];
             int []D = new int[5];
+
+            int atribuicao = 8;
+
 
             lerVetor(A);
             lerVetor(B);

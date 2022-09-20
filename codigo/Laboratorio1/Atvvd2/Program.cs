@@ -16,10 +16,10 @@ using System;
 namespace exercicio1{
     class Num{
         static void Main(string[] args){
-            int instrucao = 0;
+            int atribuicao = 1;
             int comp = 0;
-            instrucao = 0;
             int num = 0;
+            int somatorio = 0;
             Console.WriteLine("Informe um numero primo:");
             num = int.Parse(Console.ReadLine());
 
@@ -28,7 +28,6 @@ namespace exercicio1{
                     Console.WriteLine("Não é primo");
                     comp++;
                 }
-                instrucao++;
             }
             Console.WriteLine("É primo");
             
@@ -38,21 +37,24 @@ namespace exercicio1{
                     int soma = 0;
                     for (int k = i; k > 0; k--)
                     {
+                        comp++;
                         if (i % k == 0 && k != i){
-                         comp++;
                          soma += k;
+                         atribuicao++;
+                         somatorio++;
                         }
-                        instrucao++;
+                        
                     }
+                    comp++;
                     if (soma == i) 
                     {
                         Console.WriteLine(i);
-                        comp++;
                     }
-                    instrucao++;
+                    atribuicao++;
                 }
-            Console.WriteLine(comp);
-            Console.WriteLine(instrucao);    
+            Console.WriteLine("////////////////\n"+comp);
+            Console.WriteLine(atribuicao);  
+            Console.WriteLine(somatorio);    
         }
 
     }

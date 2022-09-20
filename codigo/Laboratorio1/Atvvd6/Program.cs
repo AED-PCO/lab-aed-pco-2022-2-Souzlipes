@@ -14,9 +14,12 @@ namespace exercicio1{
 
         static int Multiplica(ref int x, ref int y){
             int potencia = 1;
+            int atribuicao = 0;
             for(int i = 0; i < y; i++){
                 potencia *= x;
+                atribuicao++;
             }
+            Console.WriteLine("Atribuicao: " + atribuicao);
             return potencia;
         }
         static void Main(string[] args){

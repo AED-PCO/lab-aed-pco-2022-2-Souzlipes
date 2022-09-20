@@ -15,17 +15,33 @@ namespace exercicio2{
 
         static int Pow(int A, int B){
             int aux = 0;
+            int atribuicao = 1;
+            int comp = 0;
+            int somatorio = 0;
+
+            comp++;
             if(B == -1)
                 return(-A);
+            comp++;
             if(B == 1)
                 return(A);
-             
+            comp++;
             if (B < 0){
                 aux = A * Pow(A, B+1);
+                somatorio++;
+                atribuicao++;
+                Console.Write("Atribucao: " + atribuicao+" ");
+                Console.Write("Somatorio: " + somatorio+" ");
             } 
-            else 
+            else {
                 aux = A * Pow(A, B-1);
-
+                somatorio++;
+                atribuicao++;
+                Console.Write("Atribucao: " + atribuicao+" ");
+                Console.Write("Somatorio: " + somatorio+" ");
+            }
+            comp++;
+            Console.WriteLine("Comparacao: " + comp);
             return(aux);
         }
         static void Main(string[] args){

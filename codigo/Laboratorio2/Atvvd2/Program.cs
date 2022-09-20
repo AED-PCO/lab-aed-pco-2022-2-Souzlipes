@@ -16,15 +16,29 @@ namespace exercicio2{
 
         static int Multiplica(int A, int B){
             int aux;
+            int atribuicao = 1;
+            int comp = 0;
+            int somatorio = 0;
             if(B == 0)
                 return(0);
              
             if (B < 0){
                 aux = A*-1 + Multiplica(A, B+1);
+                atribuicao++;
+                somatorio++;
+                Console.Write("Atribuicao: " + atribuicao+" ");
+                Console.Write("Somatorio: " + somatorio+" ");
             } 
-            else 
+            else {
                 aux = A + Multiplica(A, B-1);
-            
+                somatorio++;
+                atribuicao++;
+                Console.Write("Atribuicao: " + atribuicao+" ");
+                Console.Write("Somatorio: " + somatorio+" ");
+                
+            }
+            comp++;
+            Console.WriteLine("Comparacao: "+comp);
             return(aux);
         }
         static void Main(string[] args){

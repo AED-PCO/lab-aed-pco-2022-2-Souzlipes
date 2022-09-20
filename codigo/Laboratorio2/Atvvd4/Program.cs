@@ -14,11 +14,19 @@ namespace exercicio2{
     class pow{
 
         static int Letras(string palavra, char caracter){
+            int comp = 0;
+            int somatorio = 0;
+            comp ++;
+
             if (palavra == "") 
                 return 0; 
-            if(palavra[0] == caracter) 
+            comp ++;    
+            if(palavra[0] == caracter) {
+                somatorio++;
+                Console.WriteLine("Somatorio: "+somatorio);
                 return Letras(palavra.Substring (1), caracter)+1; 
-
+            }
+            Console.WriteLine("Comparacao: "+comp);
             return Letras(palavra.Substring (1), caracter);
         }
 

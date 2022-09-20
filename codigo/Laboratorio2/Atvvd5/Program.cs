@@ -24,16 +24,23 @@ namespace exercicio2{
         }
 
         static int SomaPar(int []valor,int i){
-           if(i < valor.Length)
+            int comp = 0;
+            int somatorio = 0;
+            comp++;
+           if(i < valor.Length){
+                somatorio++;
                 return valor[i] + SomaPar(valor, i+1);
-           
+           }
+           Console.WriteLine("Somatorio: "+somatorio);
+           Console.WriteLine("Comparacao: "+comp);
            return (0);
         }
         static void Main(string[] args){
             int []valor = new int[5];
             lerVetor(valor);
+            int result = SomaPar(valor,0);
             
-            Console.Write(SomaPar(valor,0));
+            Console.Write(result);
         }
     }
 }

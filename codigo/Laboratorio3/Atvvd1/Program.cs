@@ -30,8 +30,12 @@ namespace Laboratorio3{
                 int []sub1 = new int[valor.Length / 2];
                 int []sub2 = new int[valor.Length / 2];
 
-                sub1 = ordernarVetor(sub1);
-                sub2 = ordernarVetor(sub2);
+                int []ordenado1 = new int[sub1.Length];
+                int []ordenado2 = new int[sub2.Length];
+
+                ordenado1 = ordernarVetor(sub1);
+                ordenado2 = ordernarVetor(sub2);
+                
 
                 Console.WriteLine("teste");
 

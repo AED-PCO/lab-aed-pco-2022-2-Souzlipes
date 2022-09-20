@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd3\\vetor.csproj": {}
+    "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd3\\vetor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd3\\vetor.csproj": {
+    "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd3\\vetor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd3\\vetor.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd3\\vetor.csproj",
         "projectName": "vetor",
-        "projectPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd3\\vetor.csproj",
+        "projectPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd3\\vetor.csproj",
         "packagesPath": "C:\\Users\\Luis Pereira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\exercicios1\\Atvvd3\\obj\\",
+        "outputPath": "C:\\Users\\Luis Pereira\\Documents\\PUC\\PUC-2\\lab-aed-pco-2022-2-Souzlipes\\codigo\\Laboratorio1\\Atvvd3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luis Pereira\\AppData\\Roaming\\NuGet\\NuGet.Config"

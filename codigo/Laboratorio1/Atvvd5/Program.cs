@@ -16,12 +16,16 @@ namespace exercicio1{
             num = int.Parse(Console.ReadLine());
             int  result = fat(num);
             Console.WriteLine("O fatorial é: {0}",result);
+
         }
         static int fat(int num){ 
             int fat=1;
+            int atribuicao = 1;
             for(int i = 1; i <= num; i++){
                 fat = fat * i;
+                atribuicao++;
             }
+            Console.WriteLine("Atribuicao = " + atribuicao);
             return fat;
         }
     }

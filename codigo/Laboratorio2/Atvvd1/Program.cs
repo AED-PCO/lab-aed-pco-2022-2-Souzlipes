@@ -13,12 +13,20 @@ namespace exercicio2{
 
         static int Fat(int x){
             int aux = 1;
+            int  atribuicao = 1;
+            int comp = 0;
+
+            comp++;
+            atribuicao++; 
             
             if(x == 2) 
                 return(2);
 
             aux = x * Fat(x-1);
+            Console.WriteLine("Comparacao: "+comp);
+            Console.WriteLine("Atribuicao: "+atribuicao);
             return aux;
+            
         }
         static void Main(string[] args){
             int x;
