@@ -15,6 +15,7 @@ o valor somado.
 Resultado:
 
 ![Resultado:](img/atvdd1.png)
+![Gráfico:](img/graficos_atvvd1.png)
 
 
 Atividade II 
@@ -33,6 +34,7 @@ Caso o 2º parâmetro menor que 0  a função entra em recursiviadade e irá ape
 Resultado: 
 
 ![Resultado:](img/atvdd2.png)
+![Gráfico:](img/graficos_atvvd2.png)
 
 
 Atividade III 
@@ -47,6 +49,7 @@ Para caso de potencia negativa a regra de parada será -1 e retornara o 1º para
 Resultado:
 
 ![Resultado:](img/atvdd3.png)
+![Gráfico:](img/graficos_atvvd3.png)
 
 
 Atividade IV 
@@ -61,6 +64,7 @@ Ao receber a palavra chama a função a qual irar compara cada caraceter igual s
 Resultado:
 
 ![Resultado:](img/atvdd4.png)
+![Gráfico:](img/graficos_atvvd4.png)
 
 
 Atividade V 
@@ -76,6 +80,7 @@ cada vez que realizou a recursiviadade.
 Resultado:
 
 ![Resultado:](img/atvdd5.png)
+![Gráfico:](img/graficos_atvvd5.png)
   
 
 Atividade VI
@@ -85,5 +90,6 @@ Utilize passagem de parâmetros por referência.
 Resultado:
  
 ![Resultado:](img/atvdd6.png)
+![Gráfico:](img/graficos_atvvd6.png)
  
  

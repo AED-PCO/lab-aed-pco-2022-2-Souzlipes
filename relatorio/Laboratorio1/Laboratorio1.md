@@ -16,6 +16,7 @@ O codigo a qual realizei irá pegar todos os numeros entre 1 e 9999 e irar pegar
 
 Resultado:
    ![Resultado:](img/atvdd1.jpg)
+   ![Gráfico:](img/grafico_atvvd1.png)
 
 
 Atividade II 
@@ -32,6 +33,7 @@ de 1 a 1000 como solicitado no enunciado.
 Resultado:
 
 ![Resultado:](img/atvdd2.png)
+![Gráfico:](img/grafico_atvvd2.png)
 
 
 Atividade III 
@@ -46,6 +48,7 @@ entre A e B, e D os valores diferentes.
 
 Resultado: 
 ![Resultado:](img/atvdd3.png)
+![Gráfico:](img/grafico_atvvd3.png)
 
 
 Atividade IV 
@@ -59,6 +62,7 @@ Como demonstrado abaixo o mesmo irá passar o resutlado da soma de cada linha.
 
 Resultado: 
 ![Resultado:](img/atvdd4.jpg)
+![Gráfico:](img/grafico_atvvd4.png)
 
 
 Atividade V
@@ -71,6 +75,7 @@ O codigo a qual realizei pede para o usuário inserir o nº qual o mesmo deseje 
 Resultado:
 
 ![Resultado:](img/atvdd5.jpg)
+![Gráfico:](img/grafico_atvvd5.png)
   
 
 Atividade VI
@@ -82,5 +87,6 @@ O codigo a qual realizei pede para o usuário inserir o nº qual o mesmo deseje 
 
 Resultado: 
 ![Resultado:](img/atvdd6.jpg)
+![Gráfico:](img/grafico_atvvd6.png)
  
  
