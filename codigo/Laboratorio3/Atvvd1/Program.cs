@@ -3,115 +3,58 @@
 namespace Laboratorio3{
     class Ordem{
 
-        static int[] swap(int[]valor){
-            if(valor[0] > valor[1]){
-                valor[1] = valor[0];
-                return valor;
-            }else{
-                valor[0] = valor[1];
-                return valor;
+        static void lerVetor(int[]valor){
+            for(int i=0; i < valor.Length; i++){
+                Console.WriteLine("Informe valores aleatoriamente: ");
+                valor [i] = int.Parse(Console.ReadLine());
             }
         }
 
-        static int[] ordernarVetor(int []valor){
-            
-            if(valor.Length == 1){
-                return valor;
+        static void SubVetorCompara(int[]valor, int inicio, int meio, int fim){
+            int lengthInicio = meio - inicio + 1;
+            int lengthFim = fim - meio;
+            int i,j;
+            int []inicioArray = new int[lengthInicio];
+            int []fimArray = new int[lengthFim];
+
+            for(i = 0; i < lengthInicio; i++)
+                inicioArray[i] = valor[inicio + i];
+            for(j = 0; j < lengthFim; j++)
+                fimArray[j] = valor[meio + 1 + j];
+            i = 0;
+            j = 0;
+            int k = inicio;
+
+            while(i < lengthInicio && j < lengthFim){
+                if(inicioArray[i] <= fimArray[j]){
+                    valor[k++] = inicioArray[i++];
+                }else{
+                    valor[k++] = fimArray[j++];
+                }
             }
-            if(valor.Length == 2){
-                if(valor[0] > valor[1]){
-                    swap(valor);
-                    return valor;
-                }
-                return valor;
+
+            while(i < lengthInicio){
+                valor[k++] = inicioArray[i++];
             }
+            while(j < lengthFim){
+                valor[k++] = fimArray[j++];
+            }
+        }
 
-            if(valor.Length % 2 ==0){
-                int []sub1 = new int[valor.Length / 2];
-                int []sub2 = new int[valor.Length / 2];
-
-                int []ordenado1 = new int[sub1.Length];
-                int []ordenado2 = new int[sub2.Length];
-
-                ordenado1 = ordernarVetor(sub1);
-                ordenado2 = ordernarVetor(sub2);
-                
-
-                Console.WriteLine("teste");
-
-                for(int i = 0; i < valor.Length; i++)
-                    sub1[i] = valor[i];
-
-                for(int i = 0; i < valor.Length; i++)
-                    sub2[i] = valor[i];    
-
-                int contador1 = 0, contador2 = 0, aux1 = 0, aux2 = 0;
-                
-                for(int i = 0; i < valor.Length; i++){
-                    if(sub1[contador1] < sub2[contador1] && aux1 == 0){
-                        valor[i] = sub1[contador1];
-                        if(contador1 < sub1.Length -1)
-                            contador1++;
-                        aux1++;
-                    }
-                    else if(sub1[contador2] > sub2[contador2] && aux2 == 0){
-                        valor[i] = sub2[contador2];
-                        if(contador2 > sub2.Length -1)
-                            contador2++;
-                        aux1++;
-                    }
-                    else if (aux1 != 0){
-                        valor[i] = sub2[contador2];
-                        contador2++;
-                    }else{
-                        valor[i] = sub1[contador1];
-                        contador1++;
-                    }
-                }
-                
-
-            }else{
-                int []sub1 = new int[valor.Length / 2];
-                int []sub2 = new int[(valor.Length / 2)+1];
-
-                for(int i = 0; i < valor.Length; i++)
-                    sub1[i] = valor[i];
-
-                for(int i = 0; i < valor.Length; i++)
-                    sub2[i] = valor[i + valor.Length / 2];
-                
-                int contador1 = 0, contador2 = 0, aux1 = 0, aux2 = 0;
-                
-                for(int i = 0; i < valor.Length; i++){
-                    if(sub1[contador1] < sub2[contador1] && aux1 == 0){
-                        valor[i] = sub1[contador1];
-                        if(contador1 < sub1.Length -1)
-                            contador1++;
-                        aux1++;
-                    }
-                    else if(sub1[contador2] > sub2[contador2] && aux2 == 0){
-                        valor[i] = sub2[contador2];
-                        if(contador2 > sub2.Length -1)
-                            contador2++;
-                        aux1++;
-                    }
-                    else if (aux1 != 0){
-                        valor[i] = sub2[contador2];
-                        contador2++;
-                    }else{
-                        valor[i] = sub1[contador1];
-                        contador1++;
-                    }
-                }
-                return valor;
+        static int[] MergeSort(int []valor, int inicio, int fim){
+            if(inicio < fim){
+                int meio = (inicio + fim) / 2;
+                MergeSort(valor, inicio, meio);
+                MergeSort(valor, meio + 1, fim);
+                SubVetorCompara(valor, inicio, meio, fim);
             }
             return valor;
-
         }
 
         static void Main(string[] args){
-            int []valor = new int[] {7, 5, 1, 3, 4, 6};
-            ordernarVetor(valor);  
+            int []valor = new int[6];
+            lerVetor(valor);
+            MergeSort(valor, 0, valor.Length - 1);
             
             for(int i = 0; i < valor.Length; i++){
                 Console.Write(valor[i]);
