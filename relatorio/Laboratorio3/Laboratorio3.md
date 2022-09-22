@@ -5,16 +5,56 @@ Para cada aula de laboratório, salvar print da execução de cada atividade com
 
 Atividade I
 
-Escreva um método recursivo que retorne o fatorial de um número.
+Ordenação Binaria com pos.
 
 Descrição: 
-O codigo a qual realizei foi apresentado em classe aonde enquanto a variavel "x" não for semelhante a 2, a função chamará ela mesmo
-sendo assim aplicando o meotódo recursivo. A melhor opção foi o nº 2 devido qualquer nº multiplicado por 1 é ele mesmo e qualquer soma por 0 é
-o valor somado.
+O codigo a qual realizei foi apresentado em classe o MergeSort, aonde eu realizei por conta própria apenas a intercalção dos subs vetores.
 
 Resultado:
 
 ![Resultado:](img/atvdd1.png)
 ![Gráfico:](img/graficos_atvvd1.png)
 
+
+Atividade II
+
+Ordenação Binaria sem pos.
+
+Descrição: 
+O codigo a qual realizei foi apresentado em classe o MergeSort, aonde eu realizei por conta própria apenas a intercalção dos subs vetores, sem ultilizar o POS.
+
+Resultado:
+
+![Resultado:](img/atvdd1.png)
+![Gráfico:](img/graficos_atvvd1.png)
+
+
+Atividade III
+
+Busca Binaria com pos.
+
+Descrição: 
+O codigo lhe pede para informa o número a qual deseja realizar a pesquisa, recebendo número o mesmo ordena o vetor e em seguida chama a função para buscar o número informado pelo usuário.
+
+Resultado:
+
+![Resultado:](img/atvdd3.png)
+![Gráfico:](img/graficos_atvvd3.png)
+
+
+
+
+Atividade IV
+
+Busca Binaria Sem pos.
+
+Descrição: 
+O codigo lhe pede para informa o número a qual deseja realizar a pesquisa, recebendo número o mesmo ordena o vetor e em seguida chama a função para buscar o número informado pelo usuário.
+
+Resultado:
+
+![Resultado:](img/atvdd3.png)
+![Gráfico:](img/graficos_atvvd4.png)
+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH,
 
