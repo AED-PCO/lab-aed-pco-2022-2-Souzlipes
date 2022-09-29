@@ -1,0 +1,15 @@
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\bin\Debug\net6.0\Selection.exe
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\bin\Debug\net6.0\Selection.deps.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\bin\Debug\net6.0\Selection.runtimeconfig.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\bin\Debug\net6.0\Selection.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\bin\Debug\net6.0\Selection.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\refint\Selection.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\Selection.genruntimeconfig.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio6\Selection\obj\Debug\net6.0\ref\Selection.dll
