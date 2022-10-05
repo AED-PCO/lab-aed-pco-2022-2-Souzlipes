@@ -18,7 +18,7 @@ namespace Laboratorio3{
         }
 
         static void Main(string[] args){
-            int []valor = new int[] { 1, 20, 49, 0, 18, 800, 7, 80, 3};
+            int []valor = new int[] { 1, 20, 49, 0, 18, 44, 7, 80, 3};
 
             ShellSort(valor, valor.Length);
             
