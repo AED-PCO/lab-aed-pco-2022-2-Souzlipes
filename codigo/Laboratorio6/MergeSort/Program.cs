@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Laboratorio3{
-    class Ordem{
+namespace Laboratorio6{
+    class Merge{
 
         static void lerVetor(int[]valor){
             for(int i=0; i < valor.Length; i++){
