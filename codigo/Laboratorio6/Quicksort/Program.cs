@@ -11,7 +11,7 @@ namespace Laboratorio3{
         }
 
         static int ComparaVetor(int []valor, int inicio, int fim){
-            int pivor = valor[fim];
+            int pivor = valor[inicio];
             int part = inicio;
             for(int i = inicio + 1; i < fim; i++){
                 if(valor[i] <= pivor){
@@ -20,7 +20,7 @@ namespace Laboratorio3{
                 }
             }
 
-            Swap(valor, fim, part);
+            Swap(valor, inicio, part);
 
             return part;
         }
