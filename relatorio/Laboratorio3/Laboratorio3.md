@@ -56,5 +56,4 @@ Resultado:
 ![Resultado:](img/atvdd3.png)
 ![Gráfico:](img/graficos_atvvd4.png)
 
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH,
 
