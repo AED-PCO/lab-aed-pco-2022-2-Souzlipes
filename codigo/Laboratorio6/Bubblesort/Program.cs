@@ -12,16 +12,23 @@ namespace Laboratorio6{
         static int [] Bubble(int []vet)
         {   
             int aux = 0;
+            int atribuicao = 0;
+            int comp = 0;
 
             for(int i=0; i<vet.Length; i++){
                 for(int j=0; j <vet.Length - 1; j++){
                     if(vet[j] > vet[j + 1]){
                         aux = vet[j];
+                        atribuicao++;
                         vet [j] = vet[j + 1];
+                        atribuicao++;
                         vet [j + 1] = aux;
+                        atribuicao++;
                     }
+                    comp++;
                 }
             }
+            Console.WriteLine(atribuicao + " " + comp);
             return vet;
         }
 

@@ -1,26 +1,35 @@
 ﻿using System;
 
-namespace Laboratorio3{
+namespace Laboratorio6{
     class Quicksort{
 
         static void Swap(int[]valor, int inicio, int part){
+            //int atribuicao = 3;
             int aux = valor[part];
             valor[part] = valor[inicio];
             valor[inicio] = aux;
-            Console.Write(".");
+            //Console.Write(atribuicao);
         }
 
         static int ComparaVetor(int []valor, int inicio, int fim){
             int pivor = valor[inicio];
             int part = inicio;
+            //int comp = 0;
+            //int atribuicao = 0;
+           // int somatorio = 0 ;
             for(int i = inicio + 1; i < fim; i++){
+                //comp++;
                 if(valor[i] <= pivor){
                     part+=1;
+                    //atribuicao++;
+                    //somatorio++;
                     Swap(valor, i, part);
                 }
             }
 
             Swap(valor, inicio, part);
+
+           // Console.WriteLine(atribuicao + " " + somatorio + " " + comp);
 
             return part;
         }

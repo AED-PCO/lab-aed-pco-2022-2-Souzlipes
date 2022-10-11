@@ -7,15 +7,23 @@ namespace Laboratorio6{
         static int [] Selection(int []vet)
         {   
             int aux = 0;
+            int atribuicao = 0;
+            int comp = 0;
+
             for(int i=0; i<vet.Length; i++){
                 for(int j=0; j <vet.Length; j++){
+                    comp++;
                     if(vet[i] < vet[j]){
                         aux = vet[j];
+                        atribuicao++;
                         vet[j] = vet[i];
+                        atribuicao++;
                         vet[i] = aux;
+                        atribuicao++;
                     }
                 }
             }
+            Console.WriteLine(atribuicao + " " + comp);
             return vet;
         }
 

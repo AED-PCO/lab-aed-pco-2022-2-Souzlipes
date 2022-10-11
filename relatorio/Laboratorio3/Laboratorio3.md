@@ -8,7 +8,7 @@ Atividade I
 Ordenação Binaria com pos.
 
 Descrição: 
-O codigo a qual realizei foi apresentado em classe o MergeSort, aonde eu realizei por conta própria apenas a intercalção dos subs vetores.
+O codigo a qual realizei foi apresentado em classe o MergeSort, aonde eu realizei por conta própria apenas a intercalação dos subs vetores.
 
 Resultado:
 
