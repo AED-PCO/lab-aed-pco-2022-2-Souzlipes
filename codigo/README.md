@@ -11,3 +11,12 @@
  
  <h4>Labroatório 2<h4>
   <a href="Laboratorio2/">Acesse codigo aqui</a>
+   
+ <h4>Labroatório 3<h4>
+  <a href="Laboratorio3/">Acesse codigo aqui</a>
+   
+ <h4>Labroatório 5<h4>
+  <a href="Laboratorio5/">Acesse codigo aqui</a>
+   
+ <h4>Labroatório 6<h4>
+  <a href="Laboratorio6/">Acesse codigo aqui</a>
