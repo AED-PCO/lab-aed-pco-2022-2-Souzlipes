@@ -2,5 +2,12 @@
 
 <h3>Labroatório 1<h3>
   <a href="Laboratorio1/Laboratorio1.md">Acesse os relatorios aqui</a>
-  <h3>Labroatório 2<h3>
+  
+<h3>Labroatório 2<h3>
   <a href="Laboratorio2/Laboratorio2.md">Acesse os relatorios aqui</a>
+   
+<h3>Labroatório 3<h3>
+  <a href="Laboratorio3/Laboratorio2.md">Acesse os relatorios aqui</a>
+   
+<h3>Labroatório 6<h3>
+  <a href="Laboratorio6/Laboratorio2.md">Acesse os relatorios aqui</a>
