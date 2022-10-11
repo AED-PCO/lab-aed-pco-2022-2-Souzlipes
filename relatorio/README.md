@@ -7,7 +7,7 @@
   <a href="Laboratorio2/Laboratorio2.md">Acesse os relatorios aqui</a>
    
 <h3>Labroatório 3<h3>
-  <a href="Laboratorio3/Laboratorio2.md">Acesse os relatorios aqui</a>
+  <a href="Laboratorio3/Laboratorio3.md">Acesse os relatorios aqui</a>
    
 <h3>Labroatório 6<h3>
-  <a href="Laboratorio6/Laboratorio2.md">Acesse os relatorios aqui</a>
+  <a href="Laboratorio6/Laboratorio6.md">Acesse os relatorios aqui</a>
