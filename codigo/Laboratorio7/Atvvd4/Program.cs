@@ -54,8 +54,7 @@ namespace Laboratorio7{
             return semente;
         }
 
-        static void SubVetorCompara(string []valor, int inicio, int fim){
-            int meio = (inicio + fim) / 2;
+        static void SubVetorCompara(string []valor, int inicio, int meio, int fim){
             int lengthInicio = meio - inicio + 1;
             int lengthFim = fim - meio;
             int i,j;
@@ -87,10 +86,10 @@ namespace Laboratorio7{
 
         static void MergeSort(string []valor, int inicio, int fim){
             if(inicio < fim){
-                int meio = (inicio + fim) / 2;
+                int meio = inicio + (fim - inicio) / 2;
                 MergeSort(valor, inicio, meio);
                 MergeSort(valor, meio + 1, fim);
-                SubVetorCompara(valor, inicio,fim);
+                SubVetorCompara(valor, inicio, meio, fim);
             }
 
         }
