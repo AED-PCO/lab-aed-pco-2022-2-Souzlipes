@@ -12,14 +12,14 @@ namespace Laboratorio7{
             }
 
             MergeSort(result, 0, result.Length-1);
-
-            for(int i=0; i <50000; i++){
-                Console.WriteLine(result[i]);
-            }
             
         }
 
         public static String GerarCpf(string semente){
+            int comp = 0;
+            int atribuicao = 0;
+            int somatorio = 0;
+
             int soma = 0, resto = 0;
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -27,29 +27,47 @@ namespace Laboratorio7{
             Random rnd = new Random();
             semente = rnd.Next(100000000, 999999999).ToString();
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 9; i++){
                 soma += int.Parse(semente[i].ToString()) * multiplicador1[i];
+                atribuicao++;
+                somatorio++;
+            }
 
             resto = soma % 11;
-            if (resto < 2)
+            atribuicao++;
+            comp++;
+            if (resto < 2){
                 resto = 0;
-            else
+                atribuicao++;
+            }else{
+                atribuicao++;
                 resto = 11 - resto;
-
+            }
             semente = semente + resto;
+            somatorio++;
+            atribuicao++;
             soma = 0;
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++){
                 soma += int.Parse(semente[i].ToString()) * multiplicador2[i];
-
+                atribuicao++;
+                somatorio++;
+            }
             resto = soma % 11;
-
-            if (resto < 2)
+            atribuicao++;
+            comp++;
+            if (resto < 2){
                 resto = 0;
-            else
+                atribuicao++;
+            }else{
+                atribuicao++;
                 resto = 11 - resto;
-
+            }
             semente = semente + resto;
+            atribuicao++;
+            somatorio++;
+
+            Console.WriteLine(somatorio+" "+atribuicao+" "+comp);
             
             return semente;
         }
@@ -74,7 +92,7 @@ namespace Laboratorio7{
 
                 if(n1 <= n2){
                     valor[k] = inicioArray[i];
-                    k++;
+                    i++;
                 }else{
                     valor[k] = fimArray[j];
                     j++;
