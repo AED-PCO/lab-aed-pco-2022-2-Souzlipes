@@ -12,6 +12,10 @@ namespace Laboratorio7{
             }
 
             MergeSort(result, 0, result.Length-1);
+
+            for(int i=0; i <50000; i++){
+                Console.WriteLine(result[i]);
+            }
             
         }
 
