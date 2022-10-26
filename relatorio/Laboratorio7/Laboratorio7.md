@@ -12,7 +12,7 @@ Atividade I
     d. Descreva quais as operações relevantes.
 
 Descrição:
-O metodo de bolha ultilizado é o classico, sem nem uma alteração do funcionamento, pegando os valores maiores e subindo eles para as partes superiores do vetor ultilizando uma variavels aux para substituições, assim deixando o mesmo ordenado.
+    Primeiro vamos realizar a leitura do arquivo e armazena-lo em uma string, depois adicionaremos mais uma string para o cliente informa a palavra que ele deseja saber a quantidade de vezes que ela se repete no texto. Com isso usaremos um outra função para trazer esse resultado, e cada letra sera igual trará o resultado de IGUAL, e cada letra diferente trará o resultado de DIFERNETE.
 
 Resultado:
 
@@ -53,6 +53,7 @@ Descrição:
 Resultado:
 
 ![Resultado:](img/atvdd3.png)
+
 ![Gráfico:](img/graficos_atvvd3.png)
 
 
