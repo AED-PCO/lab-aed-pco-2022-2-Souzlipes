@@ -13,4 +13,4 @@
   <a href="Laboratorio6/Laboratorio6.md">Acesse os relatorios aqui</a>
   
  <h3>Labroatório 7<h3>
- <a href="Laboratorio6/Laboratorio7.md">Acesse os relatorios aqui</a>
+ <a href="Laboratorio7/Laboratorio7.md">Acesse os relatorios aqui</a>
