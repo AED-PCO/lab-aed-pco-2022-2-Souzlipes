@@ -17,6 +17,7 @@ Descrição:
 Resultado:
 
 ![Resultado:](img/atvdd1.png)
+
 ![Gráfico:](img/graficos_atvvd1.png)
 
 
