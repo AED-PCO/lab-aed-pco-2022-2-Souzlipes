@@ -7,13 +7,9 @@ namespace Laboratorio7{
             string texto;
 
             Console.WriteLine("Escreva um texto: ");
-            texto= Console.ReadLine(); 
+            texto= Console.ReadLine();
+            string[] palavras = texto.Split(" "); 
 
-            Compara(texto);
-
-        }
-
-        static void Compara(string texto){
             int igual  = 0;
             int diferente = 0;
             StreamReader sr = new StreamReader("arqu1.txt");
@@ -21,20 +17,23 @@ namespace Laboratorio7{
 
             string[] arquivos = linha.Split(" ");
 
+
            while(linha != null){
-            for(int i = 0; i < arquivos.Length; i++){
-                Console.WriteLine(arquivos[i]);
-                    if(arquivos[i] == texto)
-                        igual++;
-                    else
-                        diferente++;
-           }
+                for(int i = 0; i < arquivos.Length;i++){
+                    for(int j = 0; j < palavras.Length; j++){
+                        if(arquivos[i] == palavras[j])
+                            igual++;
+                }
+                    diferente++;
+                }
            linha = sr.ReadLine();
            }
            sr.Close();
 
            Console.WriteLine("Possui {0} palavras iguais.",igual);
-           Console.WriteLine("Possui {0} palavras diferentes.",diferente);
+           Console.WriteLine("Possui {0} palavras diferentes.",diferente - igual);
+
+    
 
         }
     }
