@@ -1,0 +1,5 @@
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio8\Atvvd2\obj\Debug\net6.0\Atvvd2.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio8\Atvvd2\obj\Debug\net6.0\Atvvd2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio8\Atvvd2\obj\Debug\net6.0\Atvvd2.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio8\Atvvd2\obj\Debug\net6.0\Atvvd2.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio8\Atvvd2\obj\Debug\net6.0\Atvvd2.csproj.CoreCompileInputs.cache
