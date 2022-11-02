@@ -2,7 +2,7 @@
 using System.IO;
 
 namespace Laboratorio7{
-    class Atvvd1{
+    class Atvvd2{
 
         public static void Main(string[] args) {
              int []vetor = new int[5];
@@ -18,6 +18,7 @@ namespace Laboratorio7{
                 Console.Write(" {0} ", vetor[i]);
             Console.WriteLine(" ");
             shift = retirarPosicoes(vetor,ref shift);
+            shift -= 1;
             for (int i = 0; i <vetor.Length; i++)
                 Console.Write(" {0} ", vetor[i]);
         
@@ -27,10 +28,10 @@ namespace Laboratorio7{
             vetor[shift] = valor;
             shift++;
         }
-        public static void retirarPosicoes(int []vetor, ref int shift){
-
-            console.WriteLine("Valor retirado é: {0}",vetor[shift]);
-            shift-=1;
+        public static int retirarPosicoes(int []vetor, ref int aux){
+            aux -= 1;
+            Console.WriteLine("Removendo da pilha o elemento: " + vetor[aux]);
+            return aux;
         }
     }
 }
