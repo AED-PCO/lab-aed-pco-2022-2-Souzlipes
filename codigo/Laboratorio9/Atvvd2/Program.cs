@@ -19,7 +19,7 @@ namespace Laboratorio7{
                 Console.Write(" {0} ", vetor[i]);
             Console.WriteLine(" ");
 
-            copia = copiarPilha(vetor, shift);
+            copia = copiarFila(vetor, shift);
             
 
             for (int i = 0; i <vetor.Length; i++)
@@ -32,13 +32,21 @@ namespace Laboratorio7{
             shift++;
         }
         public static int retirarPosicoes(int []vetor, ref int aux){
-            aux --;
+            int pos = vetor[0];
+            for(int i = 0; i < vetor.Length-1;i++){
+                vetor[i] = vetor[i+1];
+            }
+            aux--;
+            return pos;
+        }
+        public static int retirarPilha(int []aux, ref int pos){
+            pos --;
             
-            Console.WriteLine("Removendo da pilha o elemento: " + vetor[aux]);
-            return vetor[aux];
+            Console.WriteLine("Removendo da pilha o elemento: " + aux[pos]);
+            return aux[pos];
         }
 
-        public static int[] copiarPilha(int []vetor, int shift){
+        public static int[] copiarFila(int []vetor, int shift){
             int []aux = new int[vetor.Length];
             int []copia = new int[vetor.Length];
         
@@ -47,10 +55,14 @@ namespace Laboratorio7{
                 inserirPosicoes(aux, ref i, retirarPosicoes(vetor, ref shift));
             }
 
+            for(int i = 0; i < vetor.Length;){
+                inserirPosicoes(vetor, ref i, aux[i]);
+            }
+
             shift = vetor.Length;
 
             for(int i = 0; i < vetor.Length;)
-                inserirPosicoes(copia, ref i, retirarPosicoes(aux, ref shift));
+                inserirPosicoes(copia, ref i, retirarPilha(aux, ref shift));
 
             return copia;
 
