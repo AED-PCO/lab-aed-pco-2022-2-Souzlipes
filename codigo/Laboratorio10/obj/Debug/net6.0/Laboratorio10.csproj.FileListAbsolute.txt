@@ -1,0 +1,15 @@
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\bin\Debug\net6.0\Laboratorio10.exe
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\bin\Debug\net6.0\Laboratorio10.deps.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\bin\Debug\net6.0\Laboratorio10.runtimeconfig.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\bin\Debug\net6.0\Laboratorio10.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\bin\Debug\net6.0\Laboratorio10.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\refint\Laboratorio10.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\Laboratorio10.genruntimeconfig.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio10\obj\Debug\net6.0\ref\Laboratorio10.dll

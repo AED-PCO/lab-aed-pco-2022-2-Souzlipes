@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Laboratorio7{
+namespace Laboratorio8{
     class Atvvd1{
 
         public static void Main(string[] args) {

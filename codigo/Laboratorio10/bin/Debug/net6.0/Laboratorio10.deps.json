@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Atvvd1/1.0.0": {
+      "Laboratorio10/1.0.0": {
         "runtime": {
-          "Atvvd1.dll": {}
+          "Laboratorio10.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Atvvd1/1.0.0": {
+    "Laboratorio10/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
