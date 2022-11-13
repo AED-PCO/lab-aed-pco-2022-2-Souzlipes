@@ -37,3 +37,21 @@ Resultado:
 
 ![Gráfico:](img/graficos_atvvd2.png)
 
+
+
+Atividade III
+
+Lista
+
+Descrição:
+    Realizado a criação da Pilha dinamica ultilizando o metódo de classes.
+    Aonde atraves da classe sentila conseguimos apontar as posições de memoria armazenadas.
+    Na classe sentila apontamos para o topo e assim é adicionado sempre o elemento inserido no topo da lista.
+    Na classe pilha realizamos todas implementações de inserir e remover, ultilizando a classe Sentinela para localizar inserir no topo e remover.
+
+Resultado:
+
+![Resultado:](img/atvdd3.png)
+
+![Gráfico:](img/graficos_atvvd3.png)
+
