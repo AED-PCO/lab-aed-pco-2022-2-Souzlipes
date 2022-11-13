@@ -9,6 +9,9 @@ Fila
 
 Descrição:
     Realizado a criação da fila dinamica ultilizando o metódo de classes.
+    Aonde atraves da classe sentila conseguimos apontar as posições de memoria armazenadas.
+    Na classe sentila apontamos o primerio elemento e jogamos o prox apontando para nulo sinalizando o termino da fila.
+    Na classe fila realizamos todas implementações de inserir e remover, ultilizando a classe Sentinela para localizar os valores
 
 Resultado:
 
@@ -20,10 +23,13 @@ Resultado:
 
 Atividade II
 
-Fila
+Lista
 
 Descrição:
-    Realizado a criação da pilha aonde o ulitmo a ser inserido é o primeiro a ser retirado.
+    Realizado a criação da lista dinamica ultilizando o metódo de classes.
+    Aonde atraves da classe sentila conseguimos apontar as posições de memoria armazenadas.
+    Na classe sentila apontamos o primerio elemento e jogamos o prox apontando para nulo sinalizando o termino da lista.
+    Na classe lista realizamos todas implementações de inserir e remover, ultilizando a classe Sentinela para localizar os valores
 
 Resultado:
 
