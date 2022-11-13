@@ -20,7 +20,7 @@ Resultado:
 
 Atividade II
 
-Fila
+Pilha
 
 Descrição:
     Realizado a criação da pilha aonde o ulitmo a ser inserido é o primeiro a ser retirado.
@@ -31,3 +31,16 @@ Resultado:
 
 ![Gráfico:](img/graficos_atvvd2.png)
 
+
+Atividade III
+
+Fila
+
+Descrição:
+    Realizado a criação da Fila aonde o usuario escolhe quem retirar e se deseja reenserir na mesma posição.
+
+Resultado:
+
+![Resultado:](img/atvdd3.png)
+
+![Gráfico:](img/graficos_atvvd3.png)

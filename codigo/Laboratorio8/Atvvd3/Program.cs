@@ -9,8 +9,10 @@ namespace Laboratorio7{
              int shift = 0;
              int valor = 0;
 
+
             for (int j = 0; j < vetor.Length; j++){
                 valor = j * j;
+                
                 if (shift < 5){
                     Console.WriteLine("Inserindo valor: " + valor);
                     InserirFila(vetor, ref shift, valor);
@@ -29,6 +31,7 @@ namespace Laboratorio7{
             Console.WriteLine("Deseja retirar posições na fila? ");
             retirar = Console.ReadLine();
             retirar = retirar.ToUpper();
+            
             
            if(retirar == "S"){
                 Console.WriteLine("Qual valor? ");
@@ -49,6 +52,7 @@ namespace Laboratorio7{
                 inserir = Console.ReadLine();
                 inserir = inserir.ToUpper();
 
+                
                 if(inserir == "S"){
                     Console.WriteLine("Qual valor? ");
                     valor = int.Parse(Console.ReadLine());
@@ -60,6 +64,7 @@ namespace Laboratorio7{
                 }
             
            }
+           
            if(retirar == "N"){
             
            }
@@ -74,6 +79,7 @@ namespace Laboratorio7{
             int aux;
 
             for(int i = 0; i < vetor.Length; i++){
+                
                 if(valor == vetor[i]){
                     aux  = vetor[i];
                     Console.WriteLine(vetor[i]);
@@ -82,6 +88,7 @@ namespace Laboratorio7{
                     Console.WriteLine("Valor retirado: {0}",aux);
                     break;
                 }
+                
                 if(valor != vetor[i]){
                     Console.WriteLine("Valor não encontrado");
                 }
