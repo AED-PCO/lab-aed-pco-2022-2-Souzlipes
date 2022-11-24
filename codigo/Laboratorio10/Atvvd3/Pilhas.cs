@@ -1,6 +1,6 @@
 using System;
 
-namespace Fila
+namespace Atvvd3
 {
     class Pilhas
     {
@@ -11,10 +11,10 @@ namespace Fila
         }
         public void inserir(int x)
         {
-            Sentinela aux = new Sentinela(x);
-            aux.prox = topo;
-            topo = aux;
-            aux = null;
+            Sentinela aux = new Sentinela(x); //isere o proximo elemento
+            aux.prox = topo; //Aponto para o ultimo elemento atribuido
+            topo = aux; // Declaro o novoe elemento como topo
+            aux = null; // Aponto aux par anulo pronto para recceber o proximo elemento
         }
         public int remover()
         {
@@ -23,11 +23,11 @@ namespace Fila
                 Console.WriteLine("Lista vazia!");
                 return -1;
             }
-            int elemento = topo.elemento;
-            Sentinela aux = topo;
-            topo = topo.prox;
-            aux.prox = null;
-            aux = null;
+            int elemento = topo.elemento; //Identifico o elemento topo
+            Sentinela aux = topo; //Declaro aux como topo
+            topo = topo.prox; // Declaro o proximo elemento como topo
+            aux.prox = null; //Aponto o elemento a ser retirado para nulo
+            aux = null; //Destuo o elemento
             return elemento;
         }
         public void imprimir()

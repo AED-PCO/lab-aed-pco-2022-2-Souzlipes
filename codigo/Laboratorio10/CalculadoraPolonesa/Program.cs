@@ -17,7 +17,7 @@ namespace Calculadora_Polonesa
                     string c = pilha.remover();        // String "c" recebe o elemento do topo da pilha
                     if (c == "")                       // Se o elemento atual for "" quer dizer que chegou no fim na pilha e não encontrou o "(", então possui um erro
                     {
-                        erro++;                        // Variável erro recebe um acréscimo
+                        erro++;                        // Variáve erro recebe um acréscimo
                         break;                         // Sai do loop
                     }
                     while (c != "(")                   // Enquanto "c" não for "("
