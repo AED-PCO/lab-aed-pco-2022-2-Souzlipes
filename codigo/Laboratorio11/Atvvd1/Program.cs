@@ -6,16 +6,17 @@ namespace Atvvd1
     {
         static void Main(string[] args)
         {
-            Listas listas = new Listas();
+            ListaDupla listas = new ListaDupla();
 
+            string continuar = "";
+            
+
+            do{
             int valor = 0;
             int pos = 0;
             string especifica = "";
-            string continuar = "";
             string remover = "";
             int opcao = 0;
-
-            do{
 
             Console.WriteLine("====== LISTA DINAMICA ======");
             Console.WriteLine(" ");
@@ -38,13 +39,13 @@ namespace Atvvd1
                 {   
                     Console.WriteLine("Informe a posição: ");
                     pos = int.Parse(Console.ReadLine());
-                    listas.inserirLista(valor,pos);
+                    listas.inserir(valor,pos);
                 }else if(especifica == "N")
                 {
-                    listas.inserir(valor);
+                    listas.inserirFim(valor);
                 }else
                 {
-                    listas.inserir(valor);
+                    listas.inserirFim(valor);
                     Console.WriteLine("Posiçao invalida");
                 }
                  listas.imprimir();    
@@ -57,7 +58,7 @@ namespace Atvvd1
             {
                 Console.WriteLine("Qual posição deseja remover? ");
                 pos = int.Parse(Console.ReadLine());
-                Console.WriteLine("Valor excluido "+listas.removerLista(pos));
+                Console.WriteLine("Valor excluido "+ listas.remover(pos));
             }
 
             if(opcao == 3){
