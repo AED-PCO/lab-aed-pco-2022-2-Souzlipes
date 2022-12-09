@@ -10,25 +10,25 @@ namespace Atvvd3
         public ListaCircular()
         {
            primeiro = new SentinelaCircular();
-           primiero.prox = primeiro;
-           primeiro.anterior = primeiro;
+           primeiro.prox = primeiro;
+           primeiro.ant = primeiro;
            atual = primeiro;
         }
 
         public void inserirInicio(int x)
         {
             SentinelaCircular elemento = new SentinelaCircular(x);
-            primeiro.prox = aux;
-            atual = aux;
-            aux.prox = aux;
-            aux.ant = aux;
+            primeiro.prox = elemento;
+            atual = elemento;
+            elemento.prox = elemento;
+            elemento.ant = elemento;
         }
 
         public void inserirFim(int x)
         {
             SentinelaCircular elemento = new SentinelaCircular(x);
             SentinelaCircular aux = primeiro.prox;
-            while (aux.proximo != primeiro.proximo)
+            while (aux.prox != primeiro.prox)
             {
                 aux = aux.prox;
 
@@ -42,49 +42,58 @@ namespace Atvvd3
         }
 
         public void inserir(int x, int pos){
-            int i =0;
 
-            SentinelaCircular elemento = new SentinelaCircular(x);
-            SentinelaCircular aux = primeiro.prox;
+            int tamanho = Tamanho();
 
-            while (i < pos && aux != atual)
+            if(pos < 0 || pos >  tamanho)
             {
-                i++;
-                aux = aux.prox;
-            }
-            if(aux == atual && cont < pos)
+                Console.WriteLine("Posição invalida!");
+            }else if(pos == 0)
             {
-                atual = elemento;
-                atual.prox = primeiro.prox;
-                elemento.ant = aux;
-                elemento.prox = primeiro.prox;
-                aux.prox = elemento;
-                primeiro.prox.ant = atual;
-            }else
+                inserirInicio(x);
+            }else if(pos == tamanho)
             {
-                atual.prox = primeiro.prox;
-                elemento.prox = aux;
-                aux.ant.prox = elemento;
-                aux.ant = elemento;
-                elemento.ant = aux.ant;
-                
-                if(primei)
-            }
+                inserirFim(x);
+            }else{
+                SentinelaCircular elemento = new SentinelaCircular(x);
+                SentinelaCircular i = primeiro.prox;
+                    int j = 0;
+                    while(j < pos)
+                    {
+                        j++;
+                        i = i.prox;
+                    }
+
+                    atual.prox = primeiro.prox;
+                    elemento.prox = i;
+                    i.ant.prox = elemento;
+                    i.ant = elemento;
+                    elemento.ant = i.ant;
+                        
+                     if(primeiro.prox == i.ant)
+                    {
+                        primeiro.prox = elemento;
+                        primeiro.prox.ant = atual;
+                    }
+                    
+                }
         }
-        // public void removerFim()
-        // {
-        //     if(primeiro == ultimo)
-        //     {
-        //         Console.WriteLine("Lista invalida, verifique se a algum valor!"); 
-        //         return -1; 
-        //     }
+        
 
-        //     int elemento = ultimo.elemento;
-        //     ultimo = ultimo.ant;
-        //     ultimo.prox.ant;
-        //     ultimo.prox;
-        //     return elemento;
-        // }
+        public int removerInicio()
+        {
+            if(primeiro == atual)
+            {
+                Console.WriteLine("Lista invalida, verifique se a algum valor!"); 
+                return -1; 
+            }
+            SentinelaCircular elemento = new SentinelaCircular();
+            primeiro = primeiro. prox;
+            int auxRet = primeiro.elemento;
+            elemento.prox = primeiro.ant = null;
+            elemento = null;
+            return auxRet;
+        }
 
         public int Tamanho()
         {
