@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Atvvd1
+namespace Atvvd3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ListaDupla listas = new ListaDupla();
+            ListaCircular listas = new ListaCircular();
 
             string continuar = "";
             
@@ -17,7 +17,7 @@ namespace Atvvd1
             string especifica = "";
             int opcao = 0;
 
-            Console.WriteLine("====== LISTA DINAMICA DUPLA ======");
+            Console.WriteLine("====== LISTA CIRCULAR DINAMICA ======");
             Console.WriteLine(" ");
             Console.WriteLine("Escolha uma opção: ");
             Console.WriteLine("1- Inserir.");

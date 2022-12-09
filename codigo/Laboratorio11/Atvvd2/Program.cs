@@ -5,11 +5,11 @@ namespace Laboratorio7{
     class Atvvd2{
 
         public static void Main(string[] args) {
+            
              int TAM = 5;
              int []vetor = new int[TAM];
              int inicio = 0;
              int fim = 0;
-             int valor = 0;
              int opcao = 0;
              int pos = 0;
              string continuar = "o";
