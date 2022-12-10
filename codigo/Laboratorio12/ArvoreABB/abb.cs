@@ -4,42 +4,37 @@ namespace ABB
 {
     class ArvoreBinaria 
     {
-        No raiz;
-        ArvoreBinaria()
+        No raiz, valores;
+        public ArvoreBinaria()
         {
             raiz = null;
         }
         
         public void inserir(int x)
         {
-            raiz = inserir(x, raiz);
+            raiz = inserirValor(x, raiz);
         }
-        No inserir(int x, No i) // E recebe valor da raiz
+        No inserirValor(int x, No i) // E recebe valor da raiz
         {
-            try
-            {
                 if(i == null)
                 {
                     i = new No(x);
                 }
                 if(x < i.elemento)
                 {
-                    i.esquerda = inserir(x, i.esquerda);
+                    i.esquerda = inserirValor(x, i.esquerda);
                 }
                 if(x > i.elemento)
                 {
-                    i.direita = inserir(x, i.direita);
+                    i.direita = inserirValor(x, i.direita);
                 }
                 return i;
-            }catch(Exception e){
-                Console.WriteLine("No Inserir"+e);
-            }
+
         }
 
         public void inserirSubRaiz(int x)
         {
-            try
-            {
+
                 if (raiz == null)
                 {
                     raiz = new No(x);
@@ -52,24 +47,20 @@ namespace ABB
                 {
                     subRaiz(x, raiz.direita, raiz);
                 }
-            }catch(Exception e){
-                Console.WriteLine("inserirSubRaiz"+e);
-            }
         }
 
         public void subRaiz(int x, No i, No pai)
         {
-            try
+
+            if(i == null)
             {
-                if(i == null)
+            if(x < pai.elemento) 
             {
-                if(x < pai.elemento) 
-                {
-                    pai.esquerda = new No(x);
-                }else
-                {
-                    pai.direita = new No(x);
-                }
+                pai.esquerda = new No(x);
+            }else
+            {
+                pai.direita = new No(x);
+            }
             }
             if(x < i.elemento)
             {
@@ -79,9 +70,7 @@ namespace ABB
             {
                 subRaiz(x, i.direita, i);
             }
-            }catch(Exception e){
-                Console.WriteLine("Function subRaiz"+e);
-            }
+
         }
 
 
@@ -96,9 +85,8 @@ namespace ABB
         {
             bool valor = true;
             
-            try
-            {
-                if(i == nul) 
+            
+                if(i == null) 
                 {
                     valor = false;
                 }else if(x == i.elemento)
@@ -109,12 +97,9 @@ namespace ABB
                     valor = pesquisarValor(x, i.esquerda);
                 }else
                 {
-                    valor = pesquisarValor(x, i.direita);
+                    valor = pesquisarValor(x, i.direita);  
                 }
                 return valor;
-            }catch(Exception e){
-                Console.WriteLine("Function pesquisarValor"+e);
-            }
         }
 
 
@@ -128,8 +113,6 @@ namespace ABB
 
         No removerValor(int x, No i)
         {
-            try
-            {
                 if(i == null)
                 {
                     Console.WriteLine("Arvore vazia");
@@ -144,13 +127,11 @@ namespace ABB
                     i = i.esquerda;
                 }else if (i.esquerda == null)
                 {
-                    i = direita;
+                    i = i.direita;
                 }else{
-                    i. esquerda = mariorEquerda(i, i.esquerda);
+                    i. esquerda = maiorEsquerda(i, i.esquerda);
                 }
-            }catch(Exception e){
-                Console.WriteLine("No Remover"+e);
-            }
+                return i;
         }
 
         No maiorEsquerda(No i, No j)
@@ -168,58 +149,50 @@ namespace ABB
 
 
         //Imprimir em Ordem
+
+        public void EmOrdem()
+        {
+            exibirOrdem(raiz);
+        }
         public void exibirOrdem(No i)
         {
-            i = i.elemento;
-
-            try
-            {
                 if(i != null)
                 {
-                    exibirOrdem(i.equerda);
-                    Console.Write("{0}",i.elemento);
+                    exibirOrdem(i.esquerda);
+                    Console.Write(" {0}",i.elemento);
                     exibirOrdem(i.direita);
                 }
-            }catch (Exception e)
-            {
-                Console.WriteLine("Error EM ORDEM"+e);
-            }
         }
 
-        public void preOrdem(No i)
+        public void preOrdem()
         {
-            i = i.elemento;
-
-            try
-            {
-                if(i != null)
-                {
-                    Console.Write("{0}",i.elemento);
-                    exibirOrdem(i.equerda);
-                    exibirOrdem(i.direita);
-                }
-            }catch (Exception e)
-            {
-                Console.WriteLine("Error PRE ORDEM"+e);
-            }
+            exibirPreOrdem(raiz);
         }
 
-        public void posOrdem(No i)
+        public void exibirPreOrdem(No i)
         {
-            i = i.elemento;
-
-            try
-            {
                 if(i != null)
                 {
-                    exibirOrdem(i.equerda);
+                    Console.Write(" {0}",i.elemento);
+                    exibirOrdem(i.esquerda);
                     exibirOrdem(i.direita);
-                    Console.Write("{0}",i.elemento);
                 }
-            }catch (Exception e)
-            {
-                Console.WriteLine("Error POS ORDEM"+e);
-            }
+        }
+
+        public void posOrdem()
+        {
+            exibirPosOrdem(raiz);
+        }
+
+        public void exibirPosOrdem(No i)
+        {
+                if(i != null)
+                {
+                    exibirOrdem(i.esquerda);
+                    exibirOrdem(i.direita);
+                    Console.Write(" {0}",i.elemento);
+                }
+           
         }
 
     }

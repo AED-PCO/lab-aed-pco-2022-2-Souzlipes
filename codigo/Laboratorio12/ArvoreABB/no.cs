@@ -4,18 +4,19 @@ namespace ABB
 {
     class No
     {
-        int elemento;
-        No esquerda;
-        No direito;
-        No(int elemento)
+        public int elemento;
+
+        public No node;
+        public No esquerda;
+        public No direita;
+        public No(int elemento)
         {
-            this(elemento, null, null);
         }
-        No(int elemento, No esquerda, No direito)
+        public No(int elemento, No esquerda, No direita)
         {
             this.elemento = elemento;
             this.esquerda = esquerda;
-            this.direito = direito;
+            this.direita = direita;
         }
     }
 }
