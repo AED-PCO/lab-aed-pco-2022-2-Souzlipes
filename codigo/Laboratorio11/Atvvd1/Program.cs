@@ -47,7 +47,7 @@ namespace Atvvd1
                     listas.inserirFim(valor);
                     Console.WriteLine("Posiçao invalida");
                 }
-                 listas.imprimir();    
+                 //listas.imprimir();    
 
             }
             
@@ -66,7 +66,7 @@ namespace Atvvd1
 
             Console.WriteLine(" ");
             Console.WriteLine("listas atual");
-            listas.imprimir();
+            //listas.imprimir();
 
             Console.WriteLine(" ");
             Console.WriteLine("Deseja continuar? ");
