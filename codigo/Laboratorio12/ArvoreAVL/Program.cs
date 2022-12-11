@@ -7,7 +7,6 @@ namespace AVL
         static void Main(string[] args)
         {
             ArvoreAVL Arvore = new ArvoreAVL();
-
             string continuar = "";
             
 
@@ -24,7 +23,7 @@ namespace AVL
             Console.WriteLine("4- Imprimir em ordem.");
             Console.WriteLine("5- Imprimir pre ordem.");
             Console.WriteLine("6- Imprimi pos ordem.");
-            Console.WriteLine("7- Sair");
+            Console.WriteLine("7- Sair.");
             opcao = int.Parse(Console.ReadLine());
 
             if(opcao == 1)

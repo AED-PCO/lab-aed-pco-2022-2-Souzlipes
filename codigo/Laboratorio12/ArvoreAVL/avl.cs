@@ -14,20 +14,49 @@ namespace AVL
         {
             raiz = inserirValor(x, raiz);
         }
+
+        No novoNo(int x)
+        {
+            No novo = new No(x);
+
+                novo.elemento = x;
+                novo.esquerda = null;
+                novo.direita = null;
+                novo.altura = 0;
+
+
+            return novo;
+        }
+
         No inserirValor(int x, No i) // E recebe valor da raiz
         {
                 if(i == null)
                 {
-                    i = new No(x);
+                    return novoNo(x);
                 }
-                if(x < i.elemento)
+                else
                 {
-                    i.esquerda = inserirValor(x, i.esquerda);
+                    if(x < i.elemento)
+                    {
+
+                        i.esquerda = inserirValor(x, i.esquerda);
+                    }else
+                    if(x > i.elemento)
+                    {
+                        i.direita = inserirValor(x, i.direita);
+                    }else
+                    {
+                        Console.WriteLine("Inserção não realizada");
+                    }
                 }
-                if(x > i.elemento)
-                {
-                    i.direita = inserirValor(x, i.direita);
-                }
+
+                //Calculo da altura
+                i.altura = maior(alturaNo(i.esquerda), alturaNo(i.direita)+1);
+
+                //Verifica se nescessita do balanceamento
+                i = balancear(i);
+
+
                 return i;
 
         }
@@ -196,6 +225,101 @@ namespace AVL
                     Console.Write(" {0}",i.elemento);
                 }
            
+        }
+
+        //Implemtenração ArvoreAVL
+
+        No balancear(No r)
+        {
+            int fb = fatorDeBalanceamento(r);
+
+            //Rotaçao esquerda
+            if(fb < -1 && fatorDeBalanceamento(raiz.direita) <= 0)
+                r = rotacaoEsquerda(r);
+            
+            //Rotaçao direita
+            if(fb < -1 && fatorDeBalanceamento(raiz.esquerda) <= 0)
+                r = rotacaoDireita(r);
+            
+            //Rotaçao dupla a esquerda
+            if(fb < -1 && fatorDeBalanceamento(raiz.esquerda) <= 0)
+                r = rotacaoEsquerdaDireita(r);
+            
+            //Rotaçao direita
+            if(fb < -1 && fatorDeBalanceamento(raiz.direita) <= 0)
+                r = rotacaoDiretaEsquerda(r);
+            
+            return r;
+        }
+
+        int maior(int a, int b)
+        {
+            return (a > b)? a:b;
+        }
+        int alturaNo(No i)
+        {
+            if(i == null)
+            {
+                return -1;
+            }
+            else
+            {
+                return i.altura;
+            }
+        }
+        int fatorDeBalanceamento(No i)
+        {
+            if(i != null)
+            {
+                return (alturaNo(i.esquerda) - alturaNo(i.direita));
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        
+        No rotacaoEsquerda(No r)
+        {
+            No aux, filho;
+
+            aux = r.direita;
+            filho = aux.esquerda;
+
+            aux.esquerda = r;
+            r.direita = filho;
+
+            r.altura = maior(alturaNo(r.esquerda), alturaNo(r.direita)+1);
+            aux.altura = maior(alturaNo(aux.esquerda), alturaNo(aux.direita)+1);
+
+            return aux;
+        }
+
+        No rotacaoDireita(No r)
+        {
+            No aux, filho;
+
+            aux = r.esquerda;
+            filho = aux.direita;
+
+            aux.direita = r;
+            r.esquerda = filho;
+
+            r.altura = maior(alturaNo(r.esquerda), alturaNo(r.direita)+1);
+            aux.altura = maior(alturaNo(aux.esquerda), alturaNo(aux.direita)+1);
+
+            return aux;
+        }
+
+        No rotacaoEsquerdaDireita (No r)
+        {
+            r.esquerda = rotacaoEsquerda(r.esquerda);
+            return rotacaoDireita(r);
+        }
+        No rotacaoDiretaEsquerda (No r)
+        {
+            r.direita = rotacaoDireita(r.direita);
+            return rotacaoEsquerda(r);
         }
 
     }

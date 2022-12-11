@@ -1,0 +1,15 @@
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.csproj.AssemblyReference.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.AssemblyInfoInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.AssemblyInfo.cs
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.csproj.CoreCompileInputs.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\bin\Debug\net6.0\ArvoreAVL.exe
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\bin\Debug\net6.0\ArvoreAVL.deps.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\bin\Debug\net6.0\ArvoreAVL.runtimeconfig.json
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\bin\Debug\net6.0\ArvoreAVL.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\bin\Debug\net6.0\ArvoreAVL.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\refint\ArvoreAVL.dll
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.pdb
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ArvoreAVL.genruntimeconfig.cache
+C:\Users\Luis Pereira\Documents\PUC\PUC-2\lab-aed-pco-2022-2-Souzlipes\codigo\Laboratorio12\ArvoreAVL\obj\Debug\net6.0\ref\ArvoreAVL.dll
