@@ -238,15 +238,15 @@ namespace AVL
                 r = rotacaoEsquerda(r);
             
             //Rotaçao direita
-            if(fb < -1 && fatorDeBalanceamento(raiz.esquerda) <= 0)
+            if(fb > 1 && fatorDeBalanceamento(raiz.esquerda) >= 0)
                 r = rotacaoDireita(r);
             
             //Rotaçao dupla a esquerda
-            if(fb < -1 && fatorDeBalanceamento(raiz.esquerda) <= 0)
+            if(fb > 1 && fatorDeBalanceamento(raiz.esquerda) < 0)
                 r = rotacaoEsquerdaDireita(r);
             
             //Rotaçao direita
-            if(fb < -1 && fatorDeBalanceamento(raiz.direita) <= 0)
+            if(fb < -1 && fatorDeBalanceamento(raiz.direita) > 0)
                 r = rotacaoDiretaEsquerda(r);
             
             return r;
