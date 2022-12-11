@@ -26,3 +26,16 @@
 
   <h4>Labroatório 8<h4>
   <a href="Laboratorio8/">Acesse codigo aqui</a>
+  
+  <h4>Labroatório 9<h4>
+  <a href="Laboratorio9/">Acesse codigo aqui</a>
+  
+  <h4>Labroatório 10<h4>
+  <a href="Laboratorio10/">Acesse codigo aqui</a>
+    
+  <h4>Labroatório 11<h4>
+  <a href="Laboratorio11/">Acesse codigo aqui</a>
+    
+  <h4>Labroatório 12<h4>
+  <a href="Laboratorio12/">Acesse codigo aqui</a>
+    
