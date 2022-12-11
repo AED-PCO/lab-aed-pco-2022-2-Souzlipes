@@ -32,46 +32,49 @@ namespace ABB
 
         }
 
-        public void inserirSubRaiz(int x)
-        {
+        // public void inserirSubRaiz(int x)
+        // {
 
-                if (raiz == null)
-                {
-                    raiz = new No(x);
-                }
-                if(x < raiz.elemento)
-                {
-                    subRaiz(x, raiz.esquerda, raiz);
-                }
-                if(x > raiz.elemento)
-                {
-                    subRaiz(x, raiz.direita, raiz);
-                }
-        }
+        //         if (raiz == null)
+        //         {
+        //             raiz = new No(x);
+        //         }
+        //         if(x < raiz.elemento)
+        //         {
+        //             Console.WriteLine(raiz.elemento+" Line 44");
+        //             subRaiz(x, raiz.esquerda, raiz);
+        //         }
+        //         if(x > raiz.elemento)
+        //         {
+        //             subRaiz(x, raiz.direita, raiz);
+        //         }
+        // }
 
-        public void subRaiz(int x, No i, No pai)
-        {
+        // public void subRaiz(int x, No i, No pai)
+        // {
 
-            if(i == null)
-            {
-            if(x < pai.elemento) 
-            {
-                pai.esquerda = new No(x);
-            }else
-            {
-                pai.direita = new No(x);
-            }
-            }
-            if(x < i.elemento)
-            {
-                subRaiz(x, i.esquerda, i);
-            }
-            if(x > i.elemento)
-            {
-                subRaiz(x, i.direita, i);
-            }
+        //     if(i == null)
+        //     {
+        //     if(x < pai.elemento) 
+        //     {
+        //         pai.esquerda = new No(x);
+        //     }else
+        //     {
+        //         pai.direita = new No(x);
+        //     }
+        //     }
+        //     if(x < i.elemento)
+        //     {
+        //         Console.WriteLine(i.elemento+" Line 66");
+        //         subRaiz(x, i.esquerda, i);
+        //     }
+        //     if(x > i.elemento)
+        //     {
+        //         Console.WriteLine(i.elemento+" Line 73");
+        //         subRaiz(x, i.direita, i);
+        //     }
 
-        }
+       // }
 
 
 
