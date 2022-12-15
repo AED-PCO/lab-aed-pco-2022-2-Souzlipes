@@ -5,16 +5,37 @@ Para cada aula de laboratório, salvar print da execução de cada atividade com
 
 Atividade I
 
-Fila
+Lista Duplamente encadeada
 
 Descrição:
-    Realizado a criação da fila dinamica ultilizando o metódo de classes.
-    Aonde atraves da classe sentila conseguimos apontar as posições de memoria armazenadas.
-    Na classe sentila apontamos o primerio elemento e jogamos o prox apontando para nulo sinalizando o termino da fila.
-    Na classe fila realizamos todas implementações de inserir e remover, ultilizando a classe Sentinela para localizar os valores
+    Realizado a criação da Lista duplamente encaminhada, incluindo o ponteiro ant de anterior, assim tanto o prox quanto o ant pecorrem a Lista
 
 Resultado:
 
 ![Resultado:](img/atvdd1.png)
 
-![Gráfico:](img/graficos_atvvd1.png)
+
+
+Atividade II
+
+Lista Circular statica
+
+Descrição:
+    Realizado a criação da lista circular.
+
+Resultado:
+
+![Resultado:](img/atvdd2.png)
+
+
+
+Atividade III
+
+Lista Circular Dinamica
+
+Descrição:
+    Realizado a lista circular dinamica, apontando primeiro.ant para o ultimo e ultimo.prox para o primeiro.
+
+Resultado:
+
+![Resultado:](img/atvdd3.png)
