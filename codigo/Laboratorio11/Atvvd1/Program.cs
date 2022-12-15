@@ -17,7 +17,7 @@ namespace Atvvd1
             string especifica = "";
             int opcao = 0;
 
-            Console.WriteLine("====== LISTA CIRCULAR DINAMICA ======");
+            Console.WriteLine("====== LISTA DUPLA DINAMICA ======");
             Console.WriteLine(" ");
             Console.WriteLine("Escolha uma opção: ");
             Console.WriteLine("1- Inserir.");
